@@ -1,0 +1,22 @@
+[
+  {
+    "Author": "Ice, blackappleD(汉化&适配)",
+    "Name": "Ice's Cosmic Exploration (ICE)",
+    "InternalName": "ICE",
+    "AssemblyVersion": "1.0.0.2000",
+    "IsTestingExclusive": false,
+    "Description": "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/Ices-Cosmic-Exploration",
+    "Tags": [
+      "Gatherers"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/icons/ice.png",
+    "Punchline": "欢迎来到月球。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2000/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2000/ICE.zip"
+  }
+]
