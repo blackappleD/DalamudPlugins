@@ -6,12 +6,9 @@ param(
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $repoPath = Join-Path $root 'repo.json'
-$legacyPath = Join-Path $root 'pluginmaster.json'
 
 $repoText = Get-Content -LiteralPath $repoPath -Raw
-$legacyText = Get-Content -LiteralPath $legacyPath -Raw
 $plugins = @($repoText | ConvertFrom-Json)
-$legacyPlugins = @($legacyText | ConvertFrom-Json)
 
 if ($plugins.Count -eq 0) {
     throw 'repo.json must contain at least one plugin.'
@@ -54,12 +51,6 @@ $duplicateNames = $plugins |
     Where-Object Count -gt 1
 if ($duplicateNames) {
     throw "Duplicate InternalName values: $($duplicateNames.Name -join ', ')"
-}
-
-$repoCanonical = $plugins | ConvertTo-Json -Depth 20 -Compress
-$legacyCanonical = $legacyPlugins | ConvertTo-Json -Depth 20 -Compress
-if ($repoCanonical -cne $legacyCanonical) {
-    throw 'repo.json and pluginmaster.json must contain identical plugin data.'
 }
 
 if ($CheckRemoteAssets) {

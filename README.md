@@ -14,14 +14,13 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 
 路径：`Dalamud -> 插件安装器 -> 设置 -> 自定义插件仓库`。
 
-`repo.json` 是主入口；`pluginmaster.json` 保留为兼容入口，两份文件必须始终包含相同内容。
+`repo.json` 是插件仓库入口。
 
 ## 仓库结构
 
 ```text
 .
 |-- repo.json                 # 主插件目录
-|-- pluginmaster.json         # 兼容目录
 |-- icons/ice.png             # ICE 图标
 |-- scripts/Test-Repository.ps1
 `-- .github/workflows/validate.yml
@@ -36,8 +35,8 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 1. 在插件源码仓库完成改动并运行 Release 构建。
 2. 创建 `v<版本号>` tag 和 GitHub Release。
 3. 将构建产生的 `ICE.zip` 上传为 Release asset；文件名必须保持为 `ICE.zip`。
-4. 同步修改 `repo.json` 与 `pluginmaster.json` 中的 `AssemblyVersion`、
-   `DownloadLinkInstall` 和 `DownloadLinkUpdate`。
+4. 修改 `repo.json` 中的 `AssemblyVersion`、`DownloadLinkInstall` 和
+   `DownloadLinkUpdate`。
 5. 运行本地校验，然后提交插件目录仓库。
 
 ```powershell
@@ -45,8 +44,8 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 ./scripts/Test-Repository.ps1 -CheckRemoteAssets
 ```
 
-第一条命令验证 JSON 结构和两份目录是否一致。第二条还会验证远程图标及
-Release 下载链接，应该在 GitHub Release 发布后运行。
+第一条命令验证 JSON 结构。第二条还会验证远程图标及 Release 下载链接，
+应该在 GitHub Release 发布后运行。
 
 ## 版本规则
 
@@ -60,6 +59,6 @@ Release 下载链接，应该在 GitHub Release 发布后运行。
 - [ ] ICE Release 构建成功。
 - [ ] GitHub Release tag 为 `v<版本号>`。
 - [ ] Release 中存在名为 `ICE.zip` 的资产。
-- [ ] 两份 JSON 中的版本和下载链接均已更新。
+- [ ] `repo.json` 中的版本和下载链接均已更新。
 - [ ] `./scripts/Test-Repository.ps1 -CheckRemoteAssets` 通过。
 - [ ] Dalamud 客户端可以安装并加载插件。
