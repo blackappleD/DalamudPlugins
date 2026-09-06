@@ -3,6 +3,7 @@
 这是 `blackappleD` 维护的 Dalamud 国服自定义插件仓库。目前收录：
 
 - [Ice's Cosmic Exploration (ICE)](https://github.com/blackappleD/Ices-Cosmic-Exploration)
+- [Allagan Market（国服维护版）](https://github.com/blackappleD/AllaganMarket-CN)
 
 ## 添加仓库
 
