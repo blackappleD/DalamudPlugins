@@ -43,7 +43,7 @@
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
     "InternalName": "GatherBuddyReborn-bld",
-    "AssemblyVersion": "7.5.0.4010",
+    "AssemblyVersion": "7.5.0.4011",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
@@ -63,7 +63,7 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4010/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4010/GatherbuddyReborn.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4011/GatherbuddyReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4011/GatherbuddyReborn.zip"
   }
 ]
