@@ -43,7 +43,7 @@
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
     "InternalName": "GatherBuddyReborn-bld",
-    "AssemblyVersion": "7.5.0.4002",
+    "AssemblyVersion": "7.5.0.4004",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
