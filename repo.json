@@ -3,7 +3,7 @@
     "Author": "Ice, QiongHHHZZZ(汉化&适配),blackappleD(定制化开发)",
     "Name": "Ice's Cosmic Exploration (ICE)",
     "InternalName": "ICE",
-    "AssemblyVersion": "1.0.0.2001",
+    "AssemblyVersion": "1.0.0.2002",
     "IsTestingExclusive": false,
     "Description": "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
     "ApplicableVersion": "any",
@@ -16,8 +16,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/icons/ice.png",
     "Punchline": "欢迎来到月球。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2001/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2001/ICE.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2002/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2002/ICE.zip"
   },
   {
     "Author": "blackappleD",
@@ -43,7 +43,7 @@
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
     "InternalName": "GatherBuddyRebornCN",
-    "AssemblyVersion": "7.5.0.4",
+    "AssemblyVersion": "7.5.0.5",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
@@ -63,7 +63,7 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/v7.5.0.4/GatherBuddyRebornCN.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/v7.5.0.4/GatherBuddyRebornCN.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5/GatherbuddyReborn-7.5.0.5.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5/GatherbuddyReborn-7.5.0.5.zip"
   }
 ]
