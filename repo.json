@@ -2,7 +2,7 @@
   {
     "Author": "Ice, QiongHHHZZZ, blackappleD",
     "Name": "Ice's Cosmic Exploration (ICE)",
-    "InternalName": "ICE",
+    "InternalName": "ICE-bld",
     "AssemblyVersion": "1.0.0.2002",
     "IsTestingExclusive": false,
     "Description": "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
@@ -22,7 +22,7 @@
   {
     "Author": "blackappleD",
     "Name": "Allagan Market（国服维护版）",
-    "InternalName": "AllaganMarketCN",
+    "InternalName": "AllaganMarket-bld",
     "AssemblyVersion": "1.4.0.2001",
     "Description": "整理雇员销售，追踪在售、历史销售和被压价情况的国服维护版插件。",
     "ApplicableVersion": "any",
@@ -42,7 +42,7 @@
   {
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
-    "InternalName": "GatherBuddyRebornCN",
+    "InternalName": "GatherBuddyReborn-bld",
     "AssemblyVersion": "7.5.0.4002",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
