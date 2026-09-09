@@ -23,7 +23,7 @@
     "Author": "blackappleD",
     "Name": "Allagan Market（国服维护版）",
     "InternalName": "AllaganMarket-bld",
-    "AssemblyVersion": "1.4.0.2005",
+    "AssemblyVersion": "1.4.0.2006",
     "Description": "整理雇员销售，追踪在售、历史销售和被压价情况的国服维护版插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/AllaganMarket-CN",
@@ -36,8 +36,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/AllaganMarket-CN/main/AllaganMarket/Images/logo_small.png",
     "Punchline": "整理雇员销售，追踪在售、历史销售和被压价情况！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/AllaganMarket-CN/releases/download/v1.4.0.2005/AllaganMarket-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/AllaganMarket-CN/releases/download/v1.4.0.2005/AllaganMarket-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/AllaganMarket-CN/releases/download/v1.4.0.2006/AllaganMarket-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/AllaganMarket-CN/releases/download/v1.4.0.2006/AllaganMarket-bld.zip"
   },
   {
     "Author": "The Combat Reborn Team, blackappleD",
