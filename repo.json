@@ -59,8 +59,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "Punchline": "自动跑本，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/erdelf/AutoDuty/releases/download/0.0.0.335/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/erdelf/AutoDuty/releases/download/0.0.0.335/latest.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.33501/AutoDuty-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.33501/AutoDuty-bld.zip"
   },
   {
     "Author": "The Combat Reborn Team, blackappleD",
