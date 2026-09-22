@@ -43,7 +43,7 @@
     "Author": "Herculezz, erdelf, blackappleD",
     "Name": "AutoDuty（国服维护版）",
     "InternalName": "AutoDuty-bld",
-    "AssemblyVersion": "0.0.0.34802",
+    "AssemblyVersion": "0.0.0.34803",
     "IsTestingExclusive": false,
     "Description": "自动跑本插件，支持亲信战友、副本协助、冒险者分队、异闻副本与常规副本，需要 BossMod、vnavmesh 及循环插件（Wrath Combo、BossMod 自动循环或 RSR）。",
     "ApplicableVersion": "any",
@@ -59,8 +59,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "Punchline": "自动跑本，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.34802/AutoDuty-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.34802/AutoDuty-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.34803/AutoDuty-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.34803/AutoDuty-bld.zip"
   },
   {
     "Author": "The Combat Reborn Team, blackappleD",
