@@ -8,6 +8,7 @@
 | Allagan Market（国服维护版） | `AllaganMarket-bld` | [blackappleD/AllaganMarket-CN](https://github.com/blackappleD/AllaganMarket-CN) | `v<版本号>` | `AllaganMarket-bld.zip` |
 | AutoDuty（国服维护版） | `AutoDuty-bld` | [blackappleD/AutoDuty](https://github.com/blackappleD/AutoDuty) | `<版本号>` | `AutoDuty-bld.zip` |
 | GatherBuddy Reborn（国服维护版） | `GatherBuddyReborn-bld` | [blackappleD/GatherBuddyReborn](https://github.com/blackappleD/GatherBuddyReborn) | `<版本号>` | `GatherbuddyReborn.zip` |
+| Saucy（国服维护版） | `saucy-bld` | [blackappleD/Saucy](https://github.com/blackappleD/Saucy) | `v<版本号>` | `saucy-bld.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

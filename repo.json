@@ -88,5 +88,28 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4017/GatherbuddyReborn.zip",
     "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4017/GatherbuddyReborn.zip"
+  },
+  {
+    "Author": "Taurenkey, Kagekazu, Knightmore, blackappleD",
+    "Name": "Saucy（国服维护版）",
+    "InternalName": "saucy-bld",
+    "AssemblyVersion": "2.1.2.2001",
+    "IsTestingExclusive": false,
+    "Description": "金蝶游乐场小游戏自动化：九宫幻卡、重击伽美什、孤树无援、喷风中的幸存者、仙人微彩与仙人彩。界面与聊天输出已完整汉化，默认跟随卫月语言设置，也可在侧边栏手动切换。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/Saucy",
+    "Tags": [
+      "金蝶游乐场",
+      "MGP",
+      "幻卡",
+      "自动"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/blackappleD/Saucy/master/Saucy/Icon.png",
+    "Punchline": "刷 MGP 太累的时候就用它。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip"
   }
 ]
