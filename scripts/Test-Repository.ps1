@@ -6,6 +6,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $repoPath = Join-Path $root 'repo.json'
+$maintainer = 'blackappleD'
 
 $repoText = Get-Content -LiteralPath $repoPath -Raw
 $plugins = @($repoText | ConvertFrom-Json)
@@ -39,6 +40,15 @@ foreach ($plugin in $plugins) {
 
     if ($plugin.AssemblyVersion -notmatch '^\d+\.\d+\.\d+\.\d+$') {
         throw "$($plugin.InternalName): AssemblyVersion must contain four numeric components."
+    }
+
+    # 署名必须同时包含原作者和维护者 blackappleD
+    $authors = @($plugin.Author -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+    if ($authors -cnotcontains $maintainer) {
+        throw "$($plugin.InternalName): Author must include '$maintainer'."
+    }
+    if (@($authors | Where-Object { $_ -cne $maintainer }).Count -eq 0) {
+        throw "$($plugin.InternalName): Author must also credit the original author(s)."
     }
 
     if ($plugin.DownloadLinkInstall -ne $plugin.DownloadLinkUpdate) {

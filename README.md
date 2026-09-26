@@ -31,8 +31,20 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 .
 |-- repo.json                 # 主插件目录
 |-- icons/ice.png             # ICE 图标（其余插件图标使用外部链接）
+|-- docs/upstream-sync.md     # 上游同步与发布流程
 |-- scripts/Test-Repository.ps1
+|-- scripts/Get-UpstreamStatus.ps1
+|-- scripts/upstream-sources.json
 `-- .github/workflows/validate.yml
+```
+
+## 上游同步
+
+每天由定时任务检查各插件上游是否有更新，有更新时合并、构建、发布并更新 `repo.json`，
+流程见 [docs/upstream-sync.md](docs/upstream-sync.md)。手动检查：
+
+```powershell
+./scripts/Get-UpstreamStatus.ps1
 ```
 
 ## 发布新版本
@@ -69,4 +81,5 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 - [ ] Release 中存在名称正确的 zip 资产。
 - [ ] `repo.json` 中的版本和下载链接均已更新。
 - [ ] `./scripts/Test-Repository.ps1 -CheckRemoteAssets` 通过。
+- [ ] `Author` 同时包含原作者和 `blackappleD`。
 - [ ] Dalamud 客户端可以安装并加载插件。

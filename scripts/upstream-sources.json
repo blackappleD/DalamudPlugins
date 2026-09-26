@@ -1,0 +1,94 @@
+[
+  {
+    "InternalName": "ICE-bld",
+    "Directory": "Ices-Cosmic-Exploration",
+    "Branch": "Main-Branch",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/QiongHHHZZZ/Ices-Cosmic-Exploration.git", "Branch": "Main-Branch" },
+      { "Remote": "original", "Url": "https://github.com/LeontopodiumNivale14/Ices-Cosmic-Exploration.git", "Branch": "Main-Branch" }
+    ],
+    "VersionFile": "ICE/ICE.csproj",
+    "VersionRule": "Version/AssemblyVersion/FileVersion 三者一致；原作者第 4 段 ×1000 + 本地修订（上游 1.0.0.2 → 1.0.0.2001 起）",
+    "TagFormat": "v{version}",
+    "Release": "推送 tag 触发 .github/workflows/release.yml 构建并上传",
+    "Asset": "ICE.zip"
+  },
+  {
+    "InternalName": "AllaganMarket-bld",
+    "Directory": "AllaganMarket-CN",
+    "Branch": "main",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/Critical-Impact/AllaganMarket.git", "Branch": "main" }
+    ],
+    "VersionFile": "AllaganMarket/AllaganMarket.csproj",
+    "VersionRule": "见 docs/upstream-sync.md：上游 1.4.0.2 → 1.4.0.2000，本地修订依次 +1；上游第 4 段升级后从 X000 起",
+    "TagFormat": "v{version}",
+    "Release": "推送 tag 触发 .github/workflows/release.yml 构建并创建 Release",
+    "Asset": "AllaganMarket-bld.zip"
+  },
+  {
+    "InternalName": "AutoDuty-bld",
+    "Directory": "AutoDuty",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/erdelf/AutoDuty.git", "Branch": "master" }
+    ],
+    "VersionFile": null,
+    "VersionRule": "版本仅由 tag 决定：上游 Release tag 0.0.0.N → 0.0.0.(N×100+NN)，NN 为两位本地修订（01–99）",
+    "TagFormat": "{version}",
+    "Release": "gh release create <tag>（不带资产）触发 .github/workflows/publish.yml 构建并上传",
+    "Asset": "AutoDuty-bld.zip"
+  },
+  {
+    "InternalName": "GatherBuddyReborn-bld",
+    "Directory": "GatherBuddyReborn",
+    "Branch": "main",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/AtmoOmen/GatherBuddyReborn.git", "Branch": "main" }
+    ],
+    "VersionFile": "GatherBuddy/GatherBuddy.csproj",
+    "VersionRule": "Version = $(UpstreamVersion)$(LocalRevision)；上游升级时 UpstreamVersion 跟随上游、LocalRevision 重置为 001，否则 LocalRevision +1（三位）",
+    "TagFormat": "{version}",
+    "Release": "推送 tag 触发 .github/workflows/publish.yaml 构建并上传",
+    "Asset": "GatherbuddyReborn.zip"
+  },
+  {
+    "InternalName": "saucy-bld",
+    "Directory": "Saucy",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/PunishXIV/Saucy.git", "Branch": "master" }
+    ],
+    "VersionFile": "Saucy/Saucy.csproj",
+    "VersionRule": "前三段跟随上游，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build -c Release，将 bin/Release/saucy-bld/latest.zip 重命名后 gh release create 上传",
+    "Asset": "saucy-bld.zip"
+  },
+  {
+    "InternalName": "BlueMageHelper-bld",
+    "Directory": "BlueMageHelper",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/harbingerftw/BlueMageHelper.git", "Branch": "master" }
+    ],
+    "VersionFile": "BlueMageHelper/BlueMageHelper.csproj",
+    "VersionRule": "前三段跟随上游，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build -c Release，将 bin/Release/BlueMageHelper-bld/latest.zip 重命名后 gh release create 上传",
+    "Asset": "BlueMageHelper-bld.zip"
+  },
+  {
+    "InternalName": "BOCCHI-bld",
+    "Directory": "BOCCHI",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/OhKannaDuh/BOCCHI.git", "Branch": "master" }
+    ],
+    "VersionFile": "BOCCHI/BOCCHI.csproj",
+    "VersionRule": "csproj <Version> 保持上游值；tag = 上游前三段 + (上游第 4 段 ×100 + NN)，NN 为两位本地修订（01–99），workflow 会校验",
+    "TagFormat": "v{version}",
+    "Release": "推送 tag 触发 .github/workflows/release-bld.yml 构建并创建 Release",
+    "Asset": "BOCCHI-bld.zip"
+  }
+]
