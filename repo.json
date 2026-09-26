@@ -162,9 +162,9 @@
     "Author": "blackappleD",
     "Name": "Pipi",
     "InternalName": "Pipi",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.1.1.0",
     "IsTestingExclusive": false,
-    "Description": "自用小功能合集。\n- 停靠折叠：双击浮动停靠组标签栏的空白处，折叠/展开整个停靠组。\n\n指令：/pipi 打开设置，/pipi fold [on|off] 折叠/展开所有浮动停靠组。",
+    "Description": "自用小功能合集。\n- 停靠折叠：双击浮动停靠组标签栏的空白处或右下角的缩放手柄，折叠/展开整个停靠组。\n\n指令：/pipi 打开设置，/pipi fold [on|off] 折叠/展开所有浮动停靠组。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/Pipi",
     "Tags": [
@@ -178,7 +178,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/Pipi/main/Pipi/images/icon.png",
     "Punchline": "自用小功能合集。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Pipi/releases/download/v0.1.0.0/Pipi.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Pipi/releases/download/v0.1.0.0/Pipi.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Pipi/releases/download/v0.1.1.0/Pipi.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Pipi/releases/download/v0.1.1.0/Pipi.zip"
   }
 ]
