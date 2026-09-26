@@ -7,6 +7,9 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $repoPath = Join-Path $root 'repo.json'
 $maintainer = 'blackappleD'
+# 在 upstream-sources.json 中登记了上游的插件是 fork，必须署名原作者；其余为自研插件
+$forkNames = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot 'upstream-sources.json') -Raw |
+    ConvertFrom-Json | ForEach-Object InternalName)
 
 $repoText = Get-Content -LiteralPath $repoPath -Raw
 $plugins = @($repoText | ConvertFrom-Json)
@@ -42,12 +45,13 @@ foreach ($plugin in $plugins) {
         throw "$($plugin.InternalName): AssemblyVersion must contain four numeric components."
     }
 
-    # 署名必须同时包含原作者和维护者 blackappleD
+    # 署名必须包含维护者 blackappleD；fork 插件还必须包含原作者
     $authors = @($plugin.Author -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
     if ($authors -cnotcontains $maintainer) {
         throw "$($plugin.InternalName): Author must include '$maintainer'."
     }
-    if (@($authors | Where-Object { $_ -cne $maintainer }).Count -eq 0) {
+    if ($forkNames -contains $plugin.InternalName -and
+        @($authors | Where-Object { $_ -cne $maintainer }).Count -eq 0) {
         throw "$($plugin.InternalName): Author must also credit the original author(s)."
     }
 

@@ -10,6 +10,7 @@
 | GatherBuddy Reborn（国服维护版） | `GatherBuddyReborn-bld` | [blackappleD/GatherBuddyReborn](https://github.com/blackappleD/GatherBuddyReborn) | `<版本号>` | `GatherbuddyReborn.zip` |
 | Saucy（国服维护版） | `saucy-bld` | [blackappleD/Saucy](https://github.com/blackappleD/Saucy) | `v<版本号>` | `saucy-bld.zip` |
 | Blue Mage & Beastmaster Helper（国服维护版） | `BlueMageHelper-bld` | [blackappleD/BlueMageHelper](https://github.com/blackappleD/BlueMageHelper) | `v<版本号>` | `BlueMageHelper-bld.zip` |
+| Pipi（自研，自用小功能合集） | `Pipi` | [blackappleD/Pipi](https://github.com/blackappleD/Pipi) | `v<版本号>` | `Pipi.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 
@@ -81,5 +82,5 @@ https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/repo.json
 - [ ] Release 中存在名称正确的 zip 资产。
 - [ ] `repo.json` 中的版本和下载链接均已更新。
 - [ ] `./scripts/Test-Repository.ps1 -CheckRemoteAssets` 通过。
-- [ ] `Author` 同时包含原作者和 `blackappleD`。
+- [ ] `Author` 包含 `blackappleD`；fork 插件同时包含原作者。
 - [ ] Dalamud 客户端可以安装并加载插件。

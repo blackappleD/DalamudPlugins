@@ -76,5 +76,6 @@ dotnet build <项目 csproj> -c Release
 ## 署名规则
 
 `repo.json` 与各插件清单中的 `Author` 必须同时包含原作者和 `blackappleD`，
-`Test-Repository.ps1` 会校验 `repo.json` 中的署名（区分大小写）。插件清单中的 `Author`
+`Test-Repository.ps1` 会校验 `repo.json` 中的署名（区分大小写）。自研插件（如 Pipi）没有上游，
+不在 `upstream-sources.json` 中登记，只需署名 `blackappleD`。插件清单中的 `Author`
 不在本仓库 CI 的校验范围内，修改署名时需要与 `repo.json` 同步更新；合并上游后也要确认清单中的署名没有被覆盖。
