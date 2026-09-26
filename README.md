@@ -9,6 +9,7 @@
 | AutoDuty（国服维护版） | `AutoDuty-bld` | [blackappleD/AutoDuty](https://github.com/blackappleD/AutoDuty) | `<版本号>` | `AutoDuty-bld.zip` |
 | GatherBuddy Reborn（国服维护版） | `GatherBuddyReborn-bld` | [blackappleD/GatherBuddyReborn](https://github.com/blackappleD/GatherBuddyReborn) | `<版本号>` | `GatherbuddyReborn.zip` |
 | Saucy（国服维护版） | `saucy-bld` | [blackappleD/Saucy](https://github.com/blackappleD/Saucy) | `v<版本号>` | `saucy-bld.zip` |
+| Blue Mage & Beastmaster Helper（国服维护版） | `BlueMageHelper-bld` | [blackappleD/BlueMageHelper](https://github.com/blackappleD/BlueMageHelper) | `v<版本号>` | `BlueMageHelper-bld.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

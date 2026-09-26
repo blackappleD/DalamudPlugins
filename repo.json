@@ -111,5 +111,29 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip",
     "DownloadLinkUpdate": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip"
+  },
+  {
+    "Author": "Infi, Sl0nderman, harbingerftw, blackappleD",
+    "Name": "Blue Mage & Beastmaster Helper（国服维护版）",
+    "InternalName": "BlueMageHelper-bld",
+    "AssemblyVersion": "3.6.1.2001",
+    "IsTestingExclusive": false,
+    "Description": "青魔法师与驯兽师（Beastmaster）收集助手：列出尚未学会的青魔法与尚未收服的宠物，按地图或名称搜索，一键传送到最近的以太之光或打开副本查找器，并在需要的怪物头顶显示标记。国服维护版增加界面多语言支持（默认跟随 Dalamud 语言，也可在设置中手动切换）。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/BlueMageHelper",
+    "Tags": [
+      "青魔法师",
+      "青魔",
+      "驯兽师",
+      "BLU",
+      "spellbook"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/blackappleD/BlueMageHelper/master/BlueMageHelper/images/icon.png",
+    "Punchline": "帮你补全青魔法书与驯兽师图鉴！",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/BlueMageHelper/releases/download/v3.6.1.2001/BlueMageHelper-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/BlueMageHelper/releases/download/v3.6.1.2001/BlueMageHelper-bld.zip"
   }
 ]
