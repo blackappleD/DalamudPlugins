@@ -66,7 +66,7 @@
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
     "InternalName": "GatherBuddyReborn-bld",
-    "AssemblyVersion": "7.5.0.4017",
+    "AssemblyVersion": "7.5.0.4018",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
@@ -86,8 +86,8 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4017/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4017/GatherbuddyReborn.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4018/GatherbuddyReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.4018/GatherbuddyReborn.zip"
   },
   {
     "Author": "Taurenkey, Kagekazu, Knightmore, blackappleD",
@@ -140,7 +140,7 @@
     "Author": "blackappleD",
     "Name": "BOCCHI（维护版）",
     "InternalName": "BOCCHI-bld",
-    "AssemblyVersion": "4.2.0.1501",
+    "AssemblyVersion": "4.2.0.1502",
     "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：Wrath Combo 辅助职业技能黑名单，可禁用会导致吃机制的技能（如狂战士「狂怒」）。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/BOCCHI",
@@ -155,7 +155,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/BOCCHI/master/assets/icon.png",
     "Punchline": "新月岛辅助插件 BOCCHI 维护版，支持辅助职业技能黑名单",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1501/BOCCHI-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1501/BOCCHI-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1502/BOCCHI-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1502/BOCCHI-bld.zip"
   }
 ]
