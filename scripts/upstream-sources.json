@@ -27,7 +27,7 @@
     "Asset": "AllaganMarket-bld.zip"
   },
   {
-    "InternalName": "AutoDuty-bld",
+    "InternalName": "AutoDuty",
     "Directory": "AutoDuty",
     "Branch": "master",
     "Upstreams": [
