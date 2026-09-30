@@ -3,7 +3,7 @@
     "Author": "Ice, QiongHHHZZZ, blackappleD",
     "Name": "Ice's Cosmic Exploration (ICE)",
     "InternalName": "ICE-bld",
-    "AssemblyVersion": "1.0.0.2005",
+    "AssemblyVersion": "1.0.0.3001",
     "IsTestingExclusive": false,
     "Description": "国服维护版宇宙探索插件，支持采集、制作、钓鱼与任务自动化。",
     "ApplicableVersion": "any",
@@ -16,8 +16,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/DalamudPlugins/main/icons/ice.png",
     "Punchline": "欢迎来到月球。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2005/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.2005/ICE.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.3001/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Ices-Cosmic-Exploration/releases/download/v1.0.0.3001/ICE.zip"
   },
   {
     "Author": "Critical_Impact, blackappleD",
@@ -43,7 +43,7 @@
     "Author": "Herculezz, erdelf, blackappleD",
     "Name": "AutoDuty（国服维护版）",
     "InternalName": "AutoDuty",
-    "AssemblyVersion": "0.0.0.37005",
+    "AssemblyVersion": "0.0.0.37201",
     "IsTestingExclusive": false,
     "Description": "自动跑本插件，支持亲信战友、副本协助、冒险者分队、异闻副本与常规副本，需要 BossMod、vnavmesh 及循环插件（Wrath Combo、BossMod 自动循环或 RSR）。",
     "ApplicableVersion": "any",
@@ -59,8 +59,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "Punchline": "自动跑本，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.37005/AutoDuty-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.37005/AutoDuty-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.37201/AutoDuty-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.37201/AutoDuty-bld.zip"
   },
   {
     "Author": "The Combat Reborn Team, blackappleD",
@@ -93,7 +93,7 @@
     "Author": "Taurenkey, Kagekazu, Knightmore, blackappleD",
     "Name": "Saucy（国服维护版）",
     "InternalName": "saucy-bld",
-    "AssemblyVersion": "2.1.2.2001",
+    "AssemblyVersion": "2.1.2.2002",
     "IsTestingExclusive": false,
     "Description": "金蝶游乐场小游戏自动化：九宫幻卡、重击伽美什、孤树无援、喷风中的幸存者、仙人微彩与仙人彩。界面与聊天输出已完整汉化，默认跟随卫月语言设置，也可在侧边栏手动切换。",
     "ApplicableVersion": "any",
@@ -109,8 +109,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/Saucy/master/Saucy/Icon.png",
     "Punchline": "刷 MGP 太累的时候就用它。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2001/saucy-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2002/saucy-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Saucy/releases/download/v2.1.2.2002/saucy-bld.zip"
   },
   {
     "Author": "Infi, Sl0nderman, harbingerftw, blackappleD",
