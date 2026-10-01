@@ -90,5 +90,18 @@
     "TagFormat": "v{version}",
     "Release": "推送 tag 触发 .github/workflows/release-bld.yml 构建并创建 Release",
     "Asset": "BOCCHI-bld.zip"
+  },
+  {
+    "InternalName": "GlamourLog-bld",
+    "Directory": "glamourlog",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/Jaksuhn/ffxiv_glamourlog.git", "Branch": "master" }
+    ],
+    "VersionFile": "GlamourLog/GlamourLog.csproj",
+    "VersionRule": "前三段跟随上游（上游 15.69 视为 15.69.0），第 4 段从 2001 起递增；上游版本升级后重新从 2001 起",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build -c Release（需设置 DALAMUD_HOME），将 bin/Release/GlamourLog-bld/latest.zip 复制为资产名后 gh release create 上传",
+    "Asset": "GlamourLog-bld.zip"
   }
 ]

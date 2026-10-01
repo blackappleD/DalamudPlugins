@@ -58,7 +58,7 @@ dotnet build <项目 csproj> -c Release
 4. 按 `Release` 字段发布：
    - 由 tag 触发的 workflow：推送 `TagFormat` 格式的 tag，然后用 `gh run watch` 等待完成。
    - AutoDuty：`gh release create <tag> --generate-notes` 触发 publish workflow 上传资产。
-   - 本地构建上传（Saucy、BlueMageHelper）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 
