@@ -184,8 +184,8 @@
   {
     "Author": "croizat, blackappleD",
     "Name": "Glamour Log（国服维护版）",
-    "InternalName": "GlamourLog-bld",
-    "AssemblyVersion": "15.69.0.2001",
+    "InternalName": "GlamourLog",
+    "AssemblyVersion": "15.69.0.2002",
     "IsTestingExclusive": false,
     "Description": "幻化图鉴：以游戏内图鉴风格的窗口记录所有幻化套装（金曦之遗辉引入的“套装”）的收集情况，显示是否已存入投影台或收藏柜，并列出每件套装的获取途径。附带聊天栏收集进度提示、战利品窗口徽章、一键收纳、投影台/收藏柜筛选等幻化相关功能。国服维护版增加界面多语言支持与简体中文翻译（跟随 Dalamud 界面语言）。",
     "ApplicableVersion": "any",
@@ -202,7 +202,7 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/136",
     "Punchline": "幻化套装，全部收集！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/glamourlog/releases/download/v15.69.0.2001/GlamourLog-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/glamourlog/releases/download/v15.69.0.2001/GlamourLog-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/glamourlog/releases/download/v15.69.0.2002/GlamourLog.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/glamourlog/releases/download/v15.69.0.2002/GlamourLog.zip"
   }
 ]
