@@ -140,7 +140,7 @@
     "Author": "Faye, Kage, blackappleD",
     "Name": "BOCCHI（维护版）",
     "InternalName": "BOCCHI-bld",
-    "AssemblyVersion": "4.2.0.1712",
+    "AssemblyVersion": "4.2.0.1713",
     "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：重新整理内置的魔之塔路线——按手动走的那一把逐个房间校正，去掉了跟随人群时多余的绕路（例如 (600,48) 传送装置前多跑到 x=559 再折回），塔内按录制路线行走更贴近正常走法。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/BOCCHI",
@@ -155,8 +155,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/BOCCHI/master/assets/icon.png",
     "Punchline": "新月岛辅助插件 BOCCHI 维护版，支持辅助职业技能黑名单",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1712/BOCCHI-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1712/BOCCHI-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1713/BOCCHI-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1713/BOCCHI-bld.zip"
   },
   {
     "Author": "blackappleD",
