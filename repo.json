@@ -140,8 +140,8 @@
     "Author": "Faye, Kage, blackappleD",
     "Name": "BOCCHI（维护版）",
     "InternalName": "BOCCHI-bld",
-    "AssemblyVersion": "4.2.0.1714",
-    "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：寻宝页“结束时”新增“结束后开始”选项——手动开始的寻宝或胡萝卜狩猎正常结束后（开启返回则在返回营地后），自动开启所选模式（违规模式或刷怪模式）。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
+    "AssemblyVersion": "4.2.0.1715",
+    "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：修复“魔法罐与寻宝”模式下白银币触发自动购物后角色不动、直到结束寻宝才去购物的问题（购物和暂停期间不再每帧停止寻路）。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/BOCCHI",
     "Tags": [
@@ -155,8 +155,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/BOCCHI/master/assets/icon.png",
     "Punchline": "新月岛辅助插件 BOCCHI 维护版，支持辅助职业技能黑名单",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1714/BOCCHI-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1714/BOCCHI-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1715/BOCCHI-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1715/BOCCHI-bld.zip"
   },
   {
     "Author": "blackappleD",
