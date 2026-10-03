@@ -140,8 +140,8 @@
     "Author": "Faye, Kage, blackappleD",
     "Name": "BOCCHI（维护版）",
     "InternalName": "BOCCHI-bld",
-    "AssemblyVersion": "4.2.0.1707",
-    "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：主界面（不在新月岛时）新增「自动模式」——任务时间到被传出后，自动找杰弗瑞重新进入所选的新月岛南部/北部；手动退出不会触发，也可点「立即进入」。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
+    "AssemblyVersion": "4.2.0.1709",
+    "Description": "新月岛（Occult Crescent）辅助插件 BOCCHI 的维护版：自动寻路宝箱/FATE/CE、奖励面板、自动化模式等。\n本版本新增：主界面（不在新月岛时）的「自动模式」——任务时间到被传出后自动找杰弗瑞进入所选的新月岛南部/北部（自动点击「出发」），进岛后自动开启违规模式；修复找不到菜单项的问题。\n与原版 BOCCHI 不能同时启用；命令仍为 /bocchi。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/BOCCHI",
     "Tags": [
@@ -155,8 +155,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/BOCCHI/master/assets/icon.png",
     "Punchline": "新月岛辅助插件 BOCCHI 维护版，支持辅助职业技能黑名单",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1707/BOCCHI-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1707/BOCCHI-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1709/BOCCHI-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/BOCCHI/releases/download/v4.2.0.1709/BOCCHI-bld.zip"
   },
   {
     "Author": "blackappleD",
