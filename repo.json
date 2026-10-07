@@ -209,9 +209,9 @@
     "Author": "veyn, blackappleD",
     "Name": "vfallguy（国服维护版）",
     "InternalName": "vfallguy",
-    "AssemblyVersion": "0.0.0.12001",
+    "AssemblyVersion": "0.0.0.12002",
     "IsTestingExclusive": false,
-    "Description": "糖豆人联动活动辅助：自动报名/自动退出以寻找单人房，最后一关高亮 AOE 范围。国服维护版新增：获得金碟声誉后立即退出副本，并统计金碟声誉记录与平均每小时获得量。注意：InternalName 与原版相同，请勿与原版同时安装。",
+    "Description": "糖豆人联动活动辅助：自动报名/自动退出以寻找单人房，最后一关高亮 AOE 范围。国服维护版新增：获得金碟声誉后立即退出副本；统计金碟声誉记录与平均每小时获得量；达到阈值后自动调用 GatherBuddy Reborn 购物并返回登记员。注意：InternalName 与原版相同，请勿与原版同时安装。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/blackappleD/ffxiv_vfallguy",
     "Tags": [
@@ -225,7 +225,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/ffxiv_vfallguy/master/icon2.png",
     "Punchline": "刷金碟声誉，拿下成就！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12001/vfallguy.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12001/vfallguy.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12002/vfallguy.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12002/vfallguy.zip"
   }
 ]
