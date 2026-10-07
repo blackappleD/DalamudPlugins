@@ -12,6 +12,7 @@
 | Blue Mage & Beastmaster Helper（国服维护版） | `BlueMageHelper-bld` | [blackappleD/BlueMageHelper](https://github.com/blackappleD/BlueMageHelper) | `v<版本号>` | `BlueMageHelper-bld.zip` |
 | Glamour Log（国服维护版） | `GlamourLog` | [blackappleD/glamourlog](https://github.com/blackappleD/glamourlog) | `v<版本号>` | `GlamourLog.zip` |
 | Pipi（自研，自用小功能合集） | `Pipi` | [blackappleD/Pipi](https://github.com/blackappleD/Pipi) | `v<版本号>` | `Pipi.zip` |
+| vfallguy（国服维护版） | `vfallguy` | [blackappleD/ffxiv_vfallguy](https://github.com/blackappleD/ffxiv_vfallguy) | `v<版本号>` | `vfallguy.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

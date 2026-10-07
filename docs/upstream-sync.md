@@ -15,7 +15,7 @@ tag 冲突），并输出每个插件落后上游的提交数和上游最新 tag
 带 `SKIP` 标记的插件按下文跳过条件处理。
 
 `tag` 列仅供参考，部分上游的 tag 与程序集版本不是同一套编号。计算新版本时，上游版本以
-`upstream/<分支>` 最新提交中的 `VersionFile`（或插件清单）为准；只有 AutoDuty 以上游 Release tag 为准。
+`upstream/<分支>` 最新提交中的 `VersionFile`（或插件清单）为准；只有 AutoDuty 和 vfallguy 以上游 Release tag 为准。
 
 ## 2. 跳过条件
 
@@ -58,7 +58,7 @@ dotnet build <项目 csproj> -c Release
 4. 按 `Release` 字段发布：
    - 由 tag 触发的 workflow：推送 `TagFormat` 格式的 tag，然后用 `gh run watch` 等待完成。
    - AutoDuty：`gh release create <tag> --generate-notes` 触发 publish workflow 上传资产。
-   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 

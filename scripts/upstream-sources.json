@@ -103,5 +103,18 @@
     "TagFormat": "v{version}",
     "Release": "本地 dotnet build -c Release（需设置 DALAMUD_HOME），将 bin/Release/GlamourLog/latest.zip 复制为资产名后 gh release create 上传",
     "Asset": "GlamourLog.zip"
+  },
+  {
+    "InternalName": "vfallguy",
+    "Directory": "ffxiv_vfallguy",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/awgil/ffxiv_vfallguy.git", "Branch": "master" }
+    ],
+    "VersionFile": "vfallguy/vfallguy.csproj",
+    "VersionRule": "上游版本仅由 tag 决定（csproj 为 0.0.0.0）；fork 版本 = 上游最新 tag 第 4 段 ×1000 + 本地修订（上游 v0.0.0.12 → 0.0.0.12001 起），写入 csproj <Version>",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build -c Release（需设置 DALAMUD_HOME），将 vfallguy/bin/Release/vfallguy/latest.zip 复制为资产名后 gh release create 上传",
+    "Asset": "vfallguy.zip"
   }
 ]
