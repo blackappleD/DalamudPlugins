@@ -13,6 +13,7 @@
 | Glamour Log（国服维护版） | `GlamourLog` | [blackappleD/glamourlog](https://github.com/blackappleD/glamourlog) | `v<版本号>` | `GlamourLog.zip` |
 | Pipi（自研，自用小功能合集） | `Pipi` | [blackappleD/Pipi](https://github.com/blackappleD/Pipi) | `v<版本号>` | `Pipi.zip` |
 | vfallguy（国服维护版） | `vfallguy` | [blackappleD/ffxiv_vfallguy](https://github.com/blackappleD/ffxiv_vfallguy) | `v<版本号>` | `vfallguy.zip` |
+| FATE 助手（基于 XeldarAlz 的 Auto FATE Grind） | `FateHelper-bld` | [blackappleD/FFXIV-AutoFATEGrind](https://github.com/blackappleD/FFXIV-AutoFATEGrind) | `v<版本号>` | `FateHelper-bld.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

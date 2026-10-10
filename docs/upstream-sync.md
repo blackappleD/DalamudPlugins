@@ -58,7 +58,7 @@ dotnet build <项目 csproj> -c Release
 4. 按 `Release` 字段发布：
    - 由 tag 触发的 workflow：推送 `TagFormat` 格式的 tag，然后用 `gh run watch` 等待完成。
    - AutoDuty：`gh release create <tag> --generate-notes` 触发 publish workflow 上传资产。
-   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 
@@ -79,3 +79,7 @@ dotnet build <项目 csproj> -c Release
 `Test-Repository.ps1` 会校验 `repo.json` 中的署名（区分大小写）。自研插件（如 Pipi）没有上游，
 不在 `upstream-sources.json` 中登记，只需署名 `blackappleD`。插件清单中的 `Author`
 不在本仓库 CI 的校验范围内，修改署名时需要与 `repo.json` 同步更新；合并上游后也要确认清单中的署名没有被覆盖。
+
+FATE 助手的上游（XeldarAlz/FFXIV-AutoFATEGrind）在 TRADEMARK.md 与 NOTICE 中要求 fork 使用独立的名称、
+InternalName 和图标，并在 README 与关于页面保留 `Based on Auto FATE Grind by XeldarAlz` 署名。合并上游时
+不要把名称改回 “Auto FATE Grind”，也不要恢复上游图标；上游新增的文案中出现插件名时替换为 “FATE 助手”。

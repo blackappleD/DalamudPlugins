@@ -227,5 +227,29 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12009/vfallguy.zip",
     "DownloadLinkUpdate": "https://github.com/blackappleD/ffxiv_vfallguy/releases/download/v0.0.0.12009/vfallguy.zip"
+  },
+  {
+    "Author": "XeldarAlz, blackappleD",
+    "Name": "FATE 助手",
+    "InternalName": "FateHelper-bld",
+    "AssemblyVersion": "2.17.0.2001",
+    "IsTestingExclusive": false,
+    "Description": "勾选区域后自动传送、寻找进行中的 FATE 并循环完成，直到达到目标（双色宝石、共享 FATE、危命任务等级）。基于 XeldarAlz 的 Auto FATE Grind（https://github.com/XeldarAlz/FFXIV-AutoFATEGrind）修改的国服维护版，并非原作者发布，问题请反馈到 blackappleD/FFXIV-AutoFATEGrind。需要 vnavmesh 与 BossMod。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/FFXIV-AutoFATEGrind",
+    "Tags": [
+      "FATE",
+      "危命任务",
+      "双色宝石",
+      "共享FATE",
+      "自动化"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/blackappleD/FFXIV-AutoFATEGrind/master/AutoFateGrind/Images/Icon.png",
+    "Punchline": "自动刷 FATE，解放双手。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoFATEGrind/releases/download/v2.17.0.2001/FateHelper-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoFATEGrind/releases/download/v2.17.0.2001/FateHelper-bld.zip"
   }
 ]

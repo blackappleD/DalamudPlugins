@@ -116,5 +116,18 @@
     "TagFormat": "v{version}",
     "Release": "本地 dotnet build -c Release（需设置 DALAMUD_HOME），将 vfallguy/bin/Release/vfallguy/latest.zip 复制为资产名后 gh release create 上传",
     "Asset": "vfallguy.zip"
+  },
+  {
+    "InternalName": "FateHelper-bld",
+    "Directory": "FFXIV-AutoFATEGrind",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/XeldarAlz/FFXIV-AutoFATEGrind.git", "Branch": "master" }
+    ],
+    "VersionFile": "Directory.Build.props",
+    "VersionRule": "前三段跟随上游 Directory.Build.props 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 2.17.0.0 → 2.17.0.2001）。同时更新源码仓库 repo.json 的 AssemblyVersion/TestingAssemblyVersion/下载链接（CI 会校验一致）",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build AutoFateGrind.sln -c Release -p:DalamudLibPath=<国际服 Dalamud dev 目录>（上游 ECommons 在国服 ClientStructs 下有 ExcelPage 歧义无法编译），将 AutoFateGrind/bin/Release/FateHelper-bld/latest.zip 复制为资产名后 gh release create 上传；上游的 auto-tag/release workflow 在 fork 中按仓库名禁用",
+    "Asset": "FateHelper-bld.zip"
   }
 ]
