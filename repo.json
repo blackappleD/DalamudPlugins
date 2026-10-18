@@ -304,7 +304,7 @@
     "Author": "XeldarAlz, blackappleD",
     "Name": "TreasureHelper",
     "InternalName": "TreasureHelper",
-    "AssemblyVersion": "1.0.0.2001",
+    "AssemblyVersion": "1.0.0.2002",
     "IsTestingExclusive": false,
     "Description": "自动处理背包里的陈旧地图：逐张解读、前往挖宝点、挖出宝箱、击退守卫并开箱，然后继续下一张；背包里没图时，可以用采矿工或园艺工采集每日地图，并在价格上限和金币预算内从市场板购买。基于 XeldarAlz 的 Auto Treasure Maps（https://github.com/XeldarAlz/FFXIV-AutoTreasureMaps）修改的国服维护版，并非原作者发布，问题请反馈到 blackappleD/FFXIV-AutoTreasureMaps。需要 vnavmesh 和 BossMod。",
     "ApplicableVersion": "any",
@@ -321,7 +321,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/FFXIV-AutoTreasureMaps/master/AutoTreasureMaps/Images/Icon.png",
     "Punchline": "自动挖宝图，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2001/TreasureHelper.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2001/TreasureHelper.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2002/TreasureHelper.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2002/TreasureHelper.zip"
   }
 ]
