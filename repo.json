@@ -66,7 +66,7 @@
     "Author": "The Combat Reborn Team, blackappleD",
     "Name": "GatherBuddy Reborn（国服维护版）",
     "InternalName": "GatherBuddyReborn-bld",
-    "AssemblyVersion": "7.5.0.5014",
+    "AssemblyVersion": "7.5.0.5015",
     "IsTestingExclusive": false,
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
@@ -86,8 +86,8 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5014/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5014/GatherbuddyReborn.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5015/GatherbuddyReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/GatherBuddyReborn/releases/download/7.5.0.5015/GatherbuddyReborn.zip"
   },
   {
     "Author": "Taurenkey, Kagekazu, Knightmore, blackappleD",
@@ -256,7 +256,7 @@
     "Author": "ReMakePlace Maintainers, QiongHHHZZZ, blackappleD",
     "Name": "ReMakePlace（国服维护版）",
     "InternalName": "ReMakePlacePlugin",
-    "AssemblyVersion": "7.5.1.2003",
+    "AssemblyVersion": "7.5.1.2004",
     "IsTestingExclusive": false,
     "Description": "自动保存和加载房屋室内/室外家具布局，支持导入/导出 MakePlace 与 ReMakePlace 程序的布局文件。国服维护版：适配国服 Dalamud，界面汉化。\n指令：/remakeplace、/makeplace 或 /rmp。注意：InternalName 与原版相同，请勿与原版同时安装。",
     "ApplicableVersion": "any",
@@ -273,7 +273,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/ReMakePlace/master/icon.png",
     "Punchline": "自动保存与加载房屋家具布局。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2003/ReMakePlacePlugin.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2003/ReMakePlacePlugin.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2004/ReMakePlacePlugin.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2004/ReMakePlacePlugin.zip"
   }
 ]
