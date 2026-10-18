@@ -275,5 +275,29 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2009/ReMakePlacePlugin.zip",
     "DownloadLinkUpdate": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2009/ReMakePlacePlugin.zip"
+  },
+  {
+    "Author": "daemitus, croizat, blackappleD",
+    "Name": "Something Need Doing（国服维护版）",
+    "InternalName": "SomethingNeedDoing",
+    "AssemblyVersion": "15.12.0.2001",
+    "IsTestingExclusive": false,
+    "Description": "扩展游戏原生宏系统：不限数量、不限长度的宏，更多命令和修饰符，并提供 Lua 脚本引擎和大量自动化模块。国服维护版增加界面多语言支持与简体中文翻译（默认跟随 Dalamud 界面语言，可在设置中切换）。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/SomethingNeedDoing",
+    "Tags": [
+      "宏",
+      "Lua",
+      "自动化",
+      "制作",
+      "macros"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://puni.sh/api/plugins/icon/25",
+    "Punchline": "Work work.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.12.0.2001/SomethingNeedDoing.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.12.0.2001/SomethingNeedDoing.zip"
   }
 ]
