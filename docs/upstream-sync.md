@@ -60,7 +60,7 @@ dotnet build <项目 csproj> -c Release
    - AutoDuty：`gh release create <tag> --generate-notes` 触发 publish workflow 上传资产。
    - ReMakePlace：fork 中推送 tag 不会自动触发 workflow，需执行
      `gh workflow run "Build and Release" --ref <tag>`，由 build-and-release workflow 构建并创建 Release。
-   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手、TreasureHelper）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 
@@ -85,3 +85,7 @@ dotnet build <项目 csproj> -c Release
 FATE 助手的上游（XeldarAlz/FFXIV-AutoFATEGrind）在 TRADEMARK.md 与 NOTICE 中要求 fork 使用独立的名称、
 InternalName 和图标，并在 README 与关于页面保留 `Based on Auto FATE Grind by XeldarAlz` 署名。合并上游时
 不要把名称改回 “Auto FATE Grind”，也不要恢复上游图标；上游新增的文案中出现插件名时替换为 “FATE 助手”。
+
+TreasureHelper 的上游（XeldarAlz/FFXIV-AutoTreasureMaps）有同样的要求：README 与关于页面保留
+`Based on Auto Treasure Maps by XeldarAlz` 署名，合并上游时不要把名称改回 “Auto Treasure Maps”、不要恢复上游图标，
+上游新增的文案中出现插件名时替换为 “TreasureHelper”。

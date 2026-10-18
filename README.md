@@ -14,6 +14,7 @@
 | Pipi（自研，自用小功能合集） | `Pipi` | [blackappleD/Pipi](https://github.com/blackappleD/Pipi) | `v<版本号>` | `Pipi.zip` |
 | vfallguy（国服维护版） | `vfallguy` | [blackappleD/ffxiv_vfallguy](https://github.com/blackappleD/ffxiv_vfallguy) | `v<版本号>` | `vfallguy.zip` |
 | FATE 助手（基于 XeldarAlz 的 Auto FATE Grind） | `FateHelper-bld` | [blackappleD/FFXIV-AutoFATEGrind](https://github.com/blackappleD/FFXIV-AutoFATEGrind) | `v<版本号>` | `FateHelper-bld.zip` |
+| TreasureHelper（基于 XeldarAlz 的 Auto Treasure Maps） | `TreasureHelper` | [blackappleD/FFXIV-AutoTreasureMaps](https://github.com/blackappleD/FFXIV-AutoTreasureMaps) | `v<版本号>` | `TreasureHelper.zip` |
 | ReMakePlace（国服维护版） | `ReMakePlacePlugin` | [blackappleD/ReMakePlace](https://github.com/blackappleD/ReMakePlace) | `v<版本号>` | `ReMakePlacePlugin.zip` |
 | Something Need Doing（国服维护版） | `SomethingNeedDoing` | [blackappleD/SomethingNeedDoing](https://github.com/blackappleD/SomethingNeedDoing) | `v<版本号>` | `SomethingNeedDoing.zip` |
 
