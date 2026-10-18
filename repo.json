@@ -256,7 +256,7 @@
     "Author": "ReMakePlace Maintainers, QiongHHHZZZ, blackappleD",
     "Name": "ReMakePlace（国服维护版）",
     "InternalName": "ReMakePlacePlugin",
-    "AssemblyVersion": "7.5.1.2004",
+    "AssemblyVersion": "7.5.1.2005",
     "IsTestingExclusive": false,
     "Description": "自动保存和加载房屋室内/室外家具布局，支持导入/导出 MakePlace 与 ReMakePlace 程序的布局文件。国服维护版：适配国服 Dalamud，界面汉化。\n指令：/remakeplace、/makeplace 或 /rmp。注意：InternalName 与原版相同，请勿与原版同时安装。",
     "ApplicableVersion": "any",
@@ -273,7 +273,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/ReMakePlace/master/icon.png",
     "Punchline": "自动保存与加载房屋家具布局。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2004/ReMakePlacePlugin.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2004/ReMakePlacePlugin.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2005/ReMakePlacePlugin.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/ReMakePlace/releases/download/v7.5.1.2005/ReMakePlacePlugin.zip"
   }
 ]
