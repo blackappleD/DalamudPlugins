@@ -304,7 +304,7 @@
     "Author": "XeldarAlz, blackappleD",
     "Name": "TreasureHelper",
     "InternalName": "TreasureHelper",
-    "AssemblyVersion": "1.0.0.2029",
+    "AssemblyVersion": "1.0.0.2030",
     "IsTestingExclusive": false,
     "Description": "自动处理背包里的陈旧地图：逐张解读、前往挖宝点、挖出宝箱、击退守卫并开箱，然后继续下一张；背包里没图时，可以用采矿工或园艺工采集每日地图，并在价格上限和金币预算内从市场板购买。可以去大区内最便宜的服务器买图（需要 Lifestream）。实验性：挖出传送魔纹后可单人自动进入并攻略加加财富天坑和巡梦金库。坦克职业会在敌人对自己读死刑时第一时间开减伤。宝物库内可优先攻击奖励怪物、按顺序击杀蔓德拉战队，巡梦金库的捡袋子回合有 BossModReborn 模块时交给它处理；历史页提供逐张挖宝日志（含每张耗时）。基于 XeldarAlz 的 Auto Treasure Maps（https://github.com/XeldarAlz/FFXIV-AutoTreasureMaps）修改的国服维护版，并非原作者发布，问题请反馈到 blackappleD/FFXIV-AutoTreasureMaps。可选：按宝图统计稀有物品并按市场价估值；自动丢弃不在白名单里的战利品（默认关闭，只清理挖宝获得的物品；稀有品默认保留，可按宝图和宝库逐个选择）。需要 vnavmesh 和 BossMod。",
     "ApplicableVersion": "any",
@@ -321,7 +321,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/FFXIV-AutoTreasureMaps/master/AutoTreasureMaps/Images/Icon.png",
     "Punchline": "自动挖宝图，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2029/TreasureHelper.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2029/TreasureHelper.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2030/TreasureHelper.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2030/TreasureHelper.zip"
   }
 ]
