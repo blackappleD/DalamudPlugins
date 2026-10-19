@@ -321,7 +321,7 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/FFXIV-AutoTreasureMaps/master/AutoTreasureMaps/Images/Icon.png",
     "Punchline": "自动挖宝图，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/latest/download/TreasureHelper.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/latest/download/TreasureHelper.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2029/TreasureHelper.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/FFXIV-AutoTreasureMaps/releases/download/v1.0.0.2029/TreasureHelper.zip"
   }
 ]
