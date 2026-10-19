@@ -60,7 +60,8 @@ dotnet build <项目 csproj> -c Release
    - AutoDuty：`gh release create <tag> --generate-notes` 触发 publish workflow 上传资产。
    - ReMakePlace：fork 中推送 tag 不会自动触发 workflow，需执行
      `gh workflow run "Build and Release" --ref <tag>`，由 build-and-release workflow 构建并创建 Release。
-   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手、TreasureHelper）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - TreasureHelper：版本号提交到 master 后由 fork 的 auto-tag + release workflow 自动打 tag、构建并上传 `TreasureHelper.zip`，无需本地上传。
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 

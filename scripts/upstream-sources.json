@@ -125,7 +125,7 @@
       { "Remote": "upstream", "Url": "https://github.com/XeldarAlz/FFXIV-AutoFATEGrind.git", "Branch": "master" }
     ],
     "VersionFile": "Directory.Build.props",
-    "VersionRule": "前三段跟随上游 Directory.Build.props 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 2.17.0.0 → 2.17.0.2001）。同时更新源码仓库 repo.json 的 AssemblyVersion/TestingAssemblyVersion/下载链接（CI 会校验一致）",
+    "VersionRule": "前三段跟随上游 Directory.Build.props 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 2.17.0.0 → 2.17.0.2001）。同时更新源码仓库 repo.json 的 AssemblyVersion/TestingAssemblyVersion（CI 会校验一致；下载链接固定指向 latest，无需修改）",
     "TagFormat": "v{version}",
     "Release": "本地 dotnet build AutoFateGrind.sln -c Release -p:DalamudLibPath=<国际服 Dalamud dev 目录>（上游 ECommons 在国服 ClientStructs 下有 ExcelPage 歧义无法编译），将 AutoFateGrind/bin/Release/FateHelper-bld/latest.zip 复制为资产名后 gh release create 上传；上游的 auto-tag/release workflow 在 fork 中按仓库名禁用",
     "Asset": "FateHelper-bld.zip"
@@ -165,9 +165,9 @@
       { "Remote": "upstream", "Url": "https://github.com/XeldarAlz/FFXIV-AutoTreasureMaps.git", "Branch": "master" }
     ],
     "VersionFile": "Directory.Build.props",
-    "VersionRule": "前三段跟随上游 Directory.Build.props 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 1.0.0.0 → 1.0.0.2001）。同时更新源码仓库 repo.json 的 AssemblyVersion/TestingAssemblyVersion/下载链接（CI 会校验一致）",
+    "VersionRule": "前三段跟随上游 Directory.Build.props 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 1.0.0.0 → 1.0.0.2001）。同时更新源码仓库 repo.json 的 AssemblyVersion/TestingAssemblyVersion（CI 会校验一致；下载链接固定指向 latest，无需修改）",
     "TagFormat": "v{version}",
-    "Release": "本地 dotnet build AutoTreasureMaps.sln -c Release -p:DalamudLibPath=<国际服 Dalamud dev 目录>，将 AutoTreasureMaps/bin/Release/TreasureHelper/latest.zip 复制为资产名后 gh release create 上传；上游的 auto-tag/release workflow 在 fork 中按仓库名禁用",
+    "Release": "自动：版本号（Directory.Build.props 与 repo.json）提交到 master 后，fork 的 auto-tag workflow 打 tag 并触发 release workflow，用国服 Dalamud（ottercorp）编译并上传 TreasureHelper.zip；手动推送 v* tag 也会直接发布。repo.json 下载链接固定为 releases/latest/download/TreasureHelper.zip",
     "Asset": "TreasureHelper.zip"
   }
 ]
