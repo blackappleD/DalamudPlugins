@@ -162,7 +162,7 @@
     "Author": "blackappleD",
     "Name": "Pipi",
     "InternalName": "Pipi",
-    "AssemblyVersion": "0.2.0.1",
+    "AssemblyVersion": "0.2.0.2",
     "IsTestingExclusive": false,
     "Description": "自用小功能合集。\n- 停靠折叠：双击浮动停靠组标签栏的空白处或右下角的缩放手柄，折叠/展开整个停靠组。\n- 市场布告板（移植自 Daily Routines）：远程查看/购买本服挂单，对比 Universalis 跨服价格与成交走势，支持价格监控和道具说明中的市场数据。\n\n指令：/pipi 打开设置，/pipi fold [on|off] 折叠/展开所有浮动停靠组，/pipi market [物品名/ID] 打开市场布告板。",
     "ApplicableVersion": "any",
@@ -179,8 +179,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/Pipi/main/Pipi/images/icon.png",
     "Punchline": "自用小功能合集。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Pipi/releases/download/v0.2.0.1/Pipi.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Pipi/releases/download/v0.2.0.1/Pipi.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Pipi/releases/download/v0.2.0.2/Pipi.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Pipi/releases/download/v0.2.0.2/Pipi.zip"
   },
   {
     "Author": "croizat, blackappleD",
