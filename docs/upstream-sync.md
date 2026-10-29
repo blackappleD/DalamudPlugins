@@ -16,6 +16,7 @@ tag 冲突），并输出每个插件落后上游的提交数和上游最新 tag
 
 `tag` 列仅供参考，部分上游的 tag 与程序集版本不是同一套编号。计算新版本时，上游版本以
 `upstream/<分支>` 最新提交中的 `VersionFile`（或插件清单）为准；只有 AutoDuty 和 vfallguy 以上游 Release tag 为准。
+Questionable 不另加本地修订号，版本直接沿用 QianChangUwU 的 `Directory.Build.targets`，合并后版本没变就不发布。
 
 ## 2. 跳过条件
 
@@ -61,7 +62,7 @@ dotnet build <项目 csproj> -c Release
    - ReMakePlace：fork 中推送 tag 不会自动触发 workflow，需执行
      `gh workflow run "Build and Release" --ref <tag>`，由 build-and-release workflow 构建并创建 Release。
    - TreasureHelper：版本号提交到 master 后由 fork 的 auto-tag + release workflow 自动打 tag、构建并上传 `TreasureHelper.zip`，无需本地上传。
-   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手、KeyboundBrawler）：将 `latest.zip` 复制为 `Asset` 名称后执行
+   - 本地构建上传（Saucy、BlueMageHelper、GlamourLog、vfallguy、FATE 助手、KeyboundBrawler、Questionable）：将 `latest.zip` 复制为 `Asset` 名称后执行
      `gh release create <tag> <资产> --title "<tag> — 国服维护版" --generate-notes`。
 5. 用 `gh release view <tag> --json assets` 确认 Release 中存在正确名称的资产。
 

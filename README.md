@@ -18,6 +18,7 @@
 | ReMakePlace（国服维护版） | `ReMakePlacePlugin` | [blackappleD/ReMakePlace](https://github.com/blackappleD/ReMakePlace) | `v<版本号>` | `ReMakePlacePlugin.zip` |
 | Something Need Doing（国服维护版） | `SomethingNeedDoing` | [blackappleD/SomethingNeedDoing](https://github.com/blackappleD/SomethingNeedDoing) | `v<版本号>` | `SomethingNeedDoing.zip` |
 | Keybound Brawler Helper（国服维护版） | `KeyboundBrawler` | [blackappleD/KeyboundBrawler](https://github.com/blackappleD/KeyboundBrawler) | `v<版本号>` | `KeyboundBrawler.zip` |
+| Questionable（国服维护版，基于 QianChangUwU 国服特化版） | `Questionable` | [blackappleD/Questionable](https://github.com/blackappleD/Questionable) | `v<版本号>` | `Questionable.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

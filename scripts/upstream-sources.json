@@ -182,5 +182,18 @@
     "TagFormat": "v{version}",
     "Release": "本地 dotnet build -c Release（DALAMUD_HOME 指向国服 Dalamud dev 目录），将 KeyboundBrawler/bin/x64/Release/KeyboundBrawler/latest.zip 复制为资产名后 gh release create 上传；不要用上游的 tools/release.sh（它会改上游 repo.json 并按 Ko-fi 模板发布）",
     "Asset": "KeyboundBrawler.zip"
+  },
+  {
+    "InternalName": "Questionable",
+    "Directory": "Questionable",
+    "Branch": "new-main",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/QianChangUwU/Questionable.git", "Branch": "new-main" }
+    ],
+    "VersionFile": null,
+    "VersionRule": "版本直接沿用 QianChangUwU/Questionable 的 Directory.Build.targets <Version>（千常的规则：PunishXIV 上游 A.B.C.D → A.B.C.(D×100+E)），fork 不自行改版本号；合并后版本未变化则不发布。只同步千常，不直接合并 PunishXIV（千常负责合并原上游和国服适配）。合并时保留 Questionable/Questionable.json 中 Author 的 blackappleD 与指向本 fork 的 RepoUrl",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build Questionable/Questionable.csproj -c Release -f net10.0-windows -p:DalamudLibPath=<国服 Dalamud dev 目录>，将 Questionable/dist/Questionable/latest.zip 复制为资产名后 gh release create 上传；fork 的 release.yml 会推送到千常的插件库，不要在 fork 中设置 RELEASE_USERNAMES 变量启用它",
+    "Asset": "Questionable.zip"
   }
 ]
