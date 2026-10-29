@@ -17,6 +17,7 @@
 | TreasureHelper（基于 XeldarAlz 的 Auto Treasure Maps） | `TreasureHelper` | [blackappleD/FFXIV-AutoTreasureMaps](https://github.com/blackappleD/FFXIV-AutoTreasureMaps) | `v<版本号>` | `TreasureHelper.zip` |
 | ReMakePlace（国服维护版） | `ReMakePlacePlugin` | [blackappleD/ReMakePlace](https://github.com/blackappleD/ReMakePlace) | `v<版本号>` | `ReMakePlacePlugin.zip` |
 | Something Need Doing（国服维护版） | `SomethingNeedDoing` | [blackappleD/SomethingNeedDoing](https://github.com/blackappleD/SomethingNeedDoing) | `v<版本号>` | `SomethingNeedDoing.zip` |
+| Keybound Brawler Helper（国服维护版） | `KeyboundBrawler` | [blackappleD/KeyboundBrawler](https://github.com/blackappleD/KeyboundBrawler) | `v<版本号>` | `KeyboundBrawler.zip` |
 
 各插件当前版本以 [repo.json](repo.json) 中的 `AssemblyVersion` 为准。
 

@@ -169,5 +169,18 @@
     "TagFormat": "v{version}",
     "Release": "自动：版本号（Directory.Build.props 与 repo.json）提交到 master 后，fork 的 auto-tag workflow 打 tag 并触发 release workflow，用国服 Dalamud（ottercorp）编译并上传 TreasureHelper.zip；手动推送 v* tag 也会直接发布。repo.json 下载链接指向本次 tag：releases/download/v{version}/TreasureHelper.zip",
     "Asset": "TreasureHelper.zip"
+  },
+  {
+    "InternalName": "KeyboundBrawler",
+    "Directory": "KeyboundBrawler",
+    "Branch": "main",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/KEWI-hub/KeyboundBrawler.git", "Branch": "main" }
+    ],
+    "VersionFile": "KeyboundBrawler/KeyboundBrawler.csproj",
+    "VersionRule": "前三段跟随上游 csproj 的 <Version>，第 4 段从 2001 起递增；上游前三段升级后重新从 2001 起（上游 0.7.0.0 → 0.7.0.2001）。合并上游时保留 README 中删除 Ko-fi 赞助、安装地址指向本插件库的改动，以及清单 Author 中的 blackappleD",
+    "TagFormat": "v{version}",
+    "Release": "本地 dotnet build -c Release（DALAMUD_HOME 指向国服 Dalamud dev 目录），将 KeyboundBrawler/bin/x64/Release/KeyboundBrawler/latest.zip 复制为资产名后 gh release create 上传；不要用上游的 tools/release.sh（它会改上游 repo.json 并按 Ko-fi 模板发布）",
+    "Asset": "KeyboundBrawler.zip"
   }
 ]
