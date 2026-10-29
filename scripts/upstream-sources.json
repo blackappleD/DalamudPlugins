@@ -195,5 +195,18 @@
     "TagFormat": "v{version}",
     "Release": "本地 dotnet build Questionable/Questionable.csproj -c Release -f net10.0-windows -p:DalamudLibPath=<国服 Dalamud dev 目录>，将 Questionable/dist/Questionable/latest.zip 复制为资产名后 gh release create 上传；fork 的 release.yml 会推送到千常的插件库，不要在 fork 中设置 RELEASE_USERNAMES 变量启用它",
     "Asset": "Questionable.zip"
+  },
+  {
+    "InternalName": "TextAdvance",
+    "Directory": "TextAdvance",
+    "Branch": "master",
+    "Upstreams": [
+      { "Remote": "upstream", "Url": "https://github.com/NightmareXIV/TextAdvance.git", "Branch": "master" }
+    ],
+    "VersionFile": "TextAdvance/TextAdvance.csproj",
+    "VersionRule": "前三段跟随上游 csproj 的 <Version>，第 4 段 = 上游第 4 段 ×1000 + 本地修订（上游 3.3.0.1 → 3.3.0.1001 起）；上游版本升级后按新的第 4 段重新计算。InternalName 保持 TextAdvance 不变（Questionable 等插件按该名称调用 IPC）。合并上游时保留 Lang.cs 中装备箱的简体中文职能词，以及 TextAdvance.json 中 Author 的 blackappleD 与指向本 fork 的 RepoUrl",
+    "TagFormat": "v{version}",
+    "Release": "先 git submodule update --init ECommons NightmareUI ClickLib，本地 dotnet build TextAdvance/TextAdvance.csproj -c Release -p:DalamudLibPath=<国服 Dalamud dev 目录>，将 TextAdvance/bin/Release/TextAdvance/latest.zip 复制为资产名后 gh release create 上传；上游子模块中的 ECommons 若在国服 ClientStructs 下报 ExcelPage 歧义，需将 ECommons 子模块升级到已修复的提交",
+    "Asset": "TextAdvance.zip"
   }
 ]

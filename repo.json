@@ -372,5 +372,28 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5606/Questionable.zip",
     "DownloadLinkUpdate": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5606/Questionable.zip"
+  },
+  {
+    "Author": "NightmareXIV, blackappleD",
+    "Name": "TextAdvance（国服维护版）",
+    "InternalName": "TextAdvance",
+    "AssemblyVersion": "3.3.0.1001",
+    "IsTestingExclusive": false,
+    "Description": "任务速通辅助工具：自动跳过字幕框、确认跳过过场动画、自动接交任务并选择任务奖励。\n\n国服维护版：修复国服自动选择任务奖励时装备箱职能不匹配（如战士选到治愈箱）的问题。\n\n原插件为 NightmareXIV/TextAdvance。与官方版 InternalName 相同，安装前请先卸载官方版。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/blackappleD/TextAdvance",
+    "Tags": [
+      "任务",
+      "自动化",
+      "过场动画",
+      "quests"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/blackappleD/TextAdvance/master/TextAdvance/images/icon.png",
+    "Punchline": "任务速通辅助工具，自动跳过字幕框并确认跳过过场动画。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/blackappleD/TextAdvance/releases/download/v3.3.0.1001/TextAdvance.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/TextAdvance/releases/download/v3.3.0.1001/TextAdvance.zip"
   }
 ]
