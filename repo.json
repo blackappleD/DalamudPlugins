@@ -353,7 +353,7 @@
     "Author": "liza, qstxiv, & various contributors & QianChangUwU(国服特化), blackappleD",
     "Name": "Questionable（国服维护版）",
     "InternalName": "Questionable",
-    "AssemblyVersion": "15.756.3.5608",
+    "AssemblyVersion": "15.756.3.5609",
     "IsTestingExclusive": false,
     "Description": "一个小小的任务助手插件，能在可能的情况下自动为你完成任务。使用导航网格自动行走到所有任务路径点，并尝试沿途自动完成所有步骤（不包括副本、单人职责和战斗）。\n\n并非所有任务都受支持，请查看GitHub仓库获取最新列表。\n\n所需插件：vnavmesh、TextAdvance、Lifestream\n\n基于 QianChangUwU 的国服特化版（https://github.com/QianChangUwU/Questionable）构建，原插件为 PunishXIV/Questionable。",
     "ApplicableVersion": "any",
@@ -370,8 +370,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/94",
     "Punchline": "一个小小的任务助手插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5608/Questionable.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5608/Questionable.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5609/Questionable.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/Questionable/releases/download/v15.756.3.5609/Questionable.zip"
   },
   {
     "Author": "NightmareXIV, blackappleD",
