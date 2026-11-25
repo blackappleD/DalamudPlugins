@@ -329,7 +329,7 @@
     "Author": "KEWI, blackappleD",
     "Name": "Keybound Brawler Helper（国服维护版）",
     "InternalName": "KeyboundBrawler",
-    "AssemblyVersion": "0.8.7.2001",
+    "AssemblyVersion": "0.8.8.2001",
     "IsTestingExclusive": false,
     "Description": "金碟游乐场 Keybound Brawler 活动（FFXIV × FF7 重制版联动）助手：读取敌人头上的单词并按人类速度自动输入，自动打开输入框，在禁止输入的读条期间暂停，记住被 Boss 遮挡的单词；同时统计 MGC 并规划活动奖励，可用 vnavmesh 走到兑换 NPC 自动购买。/kbb 打开窗口，/kbb auto 开关自动游玩。自动游玩违反游戏用户协议，风险自负。基于 KEWI 的 Keybound Brawler Helper（https://github.com/KEWI-hub/KeyboundBrawler）。",
     "ApplicableVersion": "any",
@@ -346,8 +346,8 @@
     "IconUrl": "https://raw.githubusercontent.com/blackappleD/KeyboundBrawler/main/images/icon.png",
     "Punchline": "Keybound Brawler 自动打字与 MGC 统计。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/KeyboundBrawler/releases/download/v0.8.7.2001/KeyboundBrawler.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/KeyboundBrawler/releases/download/v0.8.7.2001/KeyboundBrawler.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/KeyboundBrawler/releases/download/v0.8.8.2001/KeyboundBrawler.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/KeyboundBrawler/releases/download/v0.8.8.2001/KeyboundBrawler.zip"
   },
   {
     "Author": "liza, qstxiv, & various contributors & QianChangUwU(国服特化), blackappleD",
