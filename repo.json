@@ -43,7 +43,7 @@
     "Author": "Herculezz, erdelf, blackappleD",
     "Name": "AutoDuty（国服维护版）",
     "InternalName": "AutoDuty",
-    "AssemblyVersion": "0.0.0.39901",
+    "AssemblyVersion": "0.0.0.40001",
     "IsTestingExclusive": false,
     "Description": "自动跑本插件，支持亲信战友、副本协助、冒险者分队、异闻副本与常规副本，需要 BossMod、vnavmesh 及循环插件（Wrath Combo、BossMod 自动循环或 RSR）。",
     "ApplicableVersion": "any",
@@ -59,8 +59,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "Punchline": "自动跑本，解放双手。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.39901/AutoDuty-bld.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.39901/AutoDuty-bld.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.40001/AutoDuty-bld.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/AutoDuty/releases/download/0.0.0.40001/AutoDuty-bld.zip"
   },
   {
     "Author": "The Combat Reborn Team, blackappleD",
@@ -281,7 +281,7 @@
     "Author": "daemitus, croizat, blackappleD",
     "Name": "Something Need Doing（国服维护版）",
     "InternalName": "SomethingNeedDoing",
-    "AssemblyVersion": "15.15.0.2001",
+    "AssemblyVersion": "15.16.0.2001",
     "IsTestingExclusive": false,
     "Description": "扩展游戏原生宏系统：不限数量、不限长度的宏，更多命令和修饰符，并提供 Lua 脚本引擎和大量自动化模块。国服维护版增加界面多语言支持与简体中文翻译（默认跟随 Dalamud 界面语言，可在设置中切换）。",
     "ApplicableVersion": "any",
@@ -298,8 +298,8 @@
     "IconUrl": "https://puni.sh/api/plugins/icon/25",
     "Punchline": "Work work.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.15.0.2001/SomethingNeedDoing.zip",
-    "DownloadLinkUpdate": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.15.0.2001/SomethingNeedDoing.zip"
+    "DownloadLinkInstall": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.16.0.2001/SomethingNeedDoing.zip",
+    "DownloadLinkUpdate": "https://github.com/blackappleD/SomethingNeedDoing/releases/download/v15.16.0.2001/SomethingNeedDoing.zip"
   },
   {
     "Author": "XeldarAlz, blackappleD",
